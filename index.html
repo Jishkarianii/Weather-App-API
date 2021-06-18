@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/fb1e359f71.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icon.png">
+    <title>Weather</title>
+</head>
+<body>
+    <div id="background">
+        <div class="inp-serch-box">
+            <i id="searchIcon" class="fas fa-search"></i>
+            <input id="inp" type="text" placeholder="Search">
+            <button id="inpDel"><i id="delIcon" class="fas fa-times"></i></button>
+        </div>
+        <div class="city-box">
+            <p id="city">City</p>
+            <p id="geo">GEO</p>
+        </div>
+        <div class="icon-box">
+            <img id="weatherIcon" src="weatherIcon/01d@2x.png" alt="weathet-icon">
+            <p id="iconTxt">clear sky</p>
+        </div>
+        <div class="cloud-box">
+            <p id="colud">colud</p>
+        </div>
+        <div class="main-temp-box">
+            <p id="temp">0˚C</p>
+        </div>
+        <div class="feel-box">
+            <p id="feel">Feels like 0˚C</p>
+        </div>
+        <div class="feel-box">
+            <p class="feel-like">No precipitation within an hour</p>
+        </div>
+        <div class="other-data-box">
+            <div class="other-grid">
+                <div>
+                    <b id="wind">Wind: 0.0m/s NE </b>
+                    <i id="cursorDeg" class="fas fa-location-arrow"></i>
+                </div>
+                <b id="humidity">Humidity: 0%</b>
+                <b>UV index: 0.0</b>
+            </div>
+        </div>
+        <div class="other-data-box">
+            <div class="other-grid">
+                <b id="pressure">Pressure: 0000hPa</b>
+                <b id="visibility">Visibility: 0.00km</b>
+                <b id="dewPoint">Dew point: 0˚C</b>
+            </div>
+        </div>
+        <div class="other-data-box">
+            <div class="other-grid1">
+                <b id="tempMin">Min temp: 0˚C</b>
+                <b id="tempMax">Max temp: 0˚C</b>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
